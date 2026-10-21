@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARRANKA — ¡Ya es ya! Reto 21 Días con Lady Moujiza</title>
+<meta name="description" content="Reto 21 Días con Lady Moujiza para abrir o hacer crecer tu negocio en Colombia. Alista, vende y gana. Menos gente, más ganancia. By Lotel.">
+<meta property="og:title" content="ARRANKA — ¡Ya es ya!">
+<meta property="og:description" content="Empezamos en Colombia con el Reto 21 Días con Lady Moujiza, para que abras o hagas crecer tu negocio.">
+<meta property="og:url" content="https://www.arranka.co">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%22-30 -10 176 176%22%3E%3Crect x=%22-30%22 y=%22-10%22 width=%22176%22 height=%22176%22 rx=%2230%22 fill=%22%23000%22/%3E%3Cpath fill-rule=%22evenodd%22 fill=%22%23FCD92C%22 d=%22M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 %22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --negro:#000000;
+    --carbon:#141414;
+    --gris:#2A2A2A;
+    --hueso:#EDEDED;
+    --blanco:#FFFFFF;
+    --amarillo:#FCD92C;
+    --azul:#0066FF;
+    --fucsia:#ED0060;
+    --hielo:#B9DFFF;
+    --wa:#1FAF54;
+    --grano:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;overflow-x:clip}
+  body{font-family:Barlow,system-ui,sans-serif;color:var(--blanco);background:var(--negro) var(--grano);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+  h1,h2,h3,.disp{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;line-height:.92;letter-spacing:.005em}
+  h2{font-size:clamp(2.8rem,9vw,6rem);margin-bottom:.35em;transform:skewX(-8deg);transform-origin:left bottom}
+  .cierre h2,.logo-hero{transform:none}
+  h3{font-size:clamp(1.6rem,4vw,2.1rem);margin-bottom:.3em}
+  p{max-width:60ch}
+  .cond{font-family:"Barlow Condensed",sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+  :focus-visible{outline:3px solid var(--amarillo);outline-offset:3px}
+
+  /* Botones */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;font-family:"Barlow Condensed",sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:1.2rem;text-decoration:none;padding:1em 2em;background:var(--amarillo);color:var(--negro);border:none;clip-path:polygon(0 0,100% 0,100% 72%,94% 100%,0 100%);transition:background .15s,color .15s}
+  .btn:hover{background:var(--blanco)}
+  .btn.linea{background:transparent;color:var(--blanco);outline:2px solid var(--blanco);outline-offset:-2px;clip-path:none}
+  .btn.linea:hover{background:var(--blanco);color:var(--negro)}
+  .btn.wa{background:var(--wa);color:var(--blanco)}
+  .btn.wa:hover{background:var(--blanco);color:var(--negro)}
+  .btn svg{width:1.3em;height:1.3em;flex:none}
+
+  /* Barra de anuncio */
+  .anuncio{background:var(--amarillo);color:var(--negro);overflow:hidden;white-space:nowrap;font-family:"Barlow Condensed",sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:.95rem;padding:8px 0}
+  .anuncio .pista{display:inline-block;animation:corre 28s linear infinite}
+  .anuncio span{margin:0 1.6em}
+  @keyframes corre{to{transform:translateX(-50%)}}
+
+  /* Navegación */
+  header.top{position:sticky;top:0;z-index:10;background:rgba(0,0,0,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--gris)}
+  header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .marca{display:flex;align-items:center;gap:6px;text-decoration:none;height:34px}
+  .marca svg{height:100%;width:auto;display:block}
+  header.top nav{display:flex;gap:26px;align-items:center}
+  header.top nav a{text-decoration:none;font-family:"Barlow Condensed",sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:1rem;color:var(--hueso)}
+  header.top nav a:hover{color:var(--amarillo)}
+  header.top nav a.cta{background:var(--amarillo);color:var(--negro);padding:.45em 1.1em}
+  @media (max-width:800px){header.top nav a:not(.cta){display:none}}
+
+  /* Hero */
+  .hero{position:relative;min-height:calc(100svh - 100px);display:flex;align-items:flex-end;padding:60px 0 70px;overflow:hidden;background:radial-gradient(ellipse at 75% 30%,#2b2b2b 0%,#000 65%)}
+  .hero .fondo{position:absolute;inset:0;background:url("https://images.unsplash.com/photo-1552912470-ee2e96439539?auto=format&fit=crop&w=1800&q=70") center/cover no-repeat;filter:grayscale(1) contrast(1.2) brightness(.5)}
+  .hero .fondo{background-position:70% center}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 30%,#000 100%),var(--grano)}
+  .hero .wrap{position:relative;z-index:2;width:100%}
+  .hero .reto{color:var(--amarillo);font-size:clamp(1rem,2.6vw,1.3rem)}
+  .logo-hero{margin:.3em 0 0 -1%;max-width:980px}
+  .logo-hero svg{width:100%;height:auto;display:block;overflow:visible}
+  .logo-hero .rayo-p{transform-box:fill-box;transform-origin:center;opacity:0;animation:rayo .5s cubic-bezier(.3,1.5,.5,1) .1s forwards}
+  .logo-hero .letras-p{opacity:0;transform:translateX(-30px);animation:entra .6s cubic-bezier(.2,.8,.2,1) .35s forwards}
+  .logo-hero .brocha-p{opacity:0;animation:aparece .5s ease .85s forwards}
+  @keyframes rayo{from{opacity:0;transform:translateY(-40%) scale(1.3)}to{opacity:1;transform:none}}
+  @keyframes entra{to{opacity:1;transform:none}}
+  @keyframes aparece{to{opacity:1}}
+  .hero .frase{font-size:clamp(1.15rem,2.6vw,1.45rem);font-weight:500;color:var(--hueso);margin:1.4em 0 1.8em;max-width:34ch}
+  .hero .acciones{display:flex;flex-wrap:wrap;gap:14px}
+  @media (prefers-reduced-motion:reduce){.logo-hero *,.anuncio .pista{animation:none!important;opacity:1!important;transform:none!important}}
+
+  section{padding:100px 0}
+  .claro{background:var(--hueso) var(--grano);color:var(--negro)}
+
+  /* Manifiesto */
+  .manifiesto{border-top:6px solid var(--amarillo)}
+  .manifiesto h2{font-size:clamp(3.4rem,13vw,9rem)}
+  .manifiesto .texto{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:20px;align-items:end}
+  .manifiesto .texto p{font-size:1.25rem;color:var(--hueso)}
+  .manifiesto .texto p + p{margin-top:1em}
+  .manifiesto .remate{font-family:Anton,sans-serif;text-transform:uppercase;font-size:clamp(1.8rem,4.5vw,2.8rem);line-height:1;color:var(--amarillo)}
+  @media (max-width:800px){.manifiesto .texto{grid-template-columns:1fr;gap:24px}}
+
+  /* Caminos */
+  .caminos{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-top:36px}
+  .camino{padding:40px 34px;background:var(--negro);color:var(--blanco);position:relative}
+  .camino.b{background:var(--amarillo);color:var(--negro)}
+  .camino .etq{font-size:.95rem;color:var(--amarillo);margin-bottom:14px;display:block}
+  .camino.b .etq{color:var(--negro)}
+  .camino ul{list-style:none;margin-top:20px}
+  .camino li{padding:12px 0 12px 34px;position:relative;border-top:1px solid rgba(255,255,255,.18);font-weight:600}
+  .camino.b li{border-top-color:rgba(0,0,0,.2)}
+  .camino li::before{content:"";position:absolute;left:0;top:14px;width:18px;height:24px;background:var(--amarillo);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 116 158%22%3E%3Cpath fill-rule=%22evenodd%22 fill=%22%23000%22 d=%22M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 %22/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 116 158%22%3E%3Cpath fill-rule=%22evenodd%22 fill=%22%23000%22 d=%22M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 %22/%3E%3C/svg%3E") center/contain no-repeat}
+  .camino.b li::before{background:var(--negro)}
+  @media (max-width:800px){.caminos{grid-template-columns:1fr}}
+
+
+  /* Fondos con fotos de personas */
+  .con-foto{position:relative;overflow:hidden;isolation:isolate}
+  .con-foto>.bg{position:absolute;inset:0;z-index:-2;background-size:cover;background-position:center;filter:grayscale(1) contrast(1.15) brightness(.42)}
+  .con-foto::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.55) 60%,rgba(0,0,0,.35) 100%),var(--grano)}
+  .con-foto.centro::before{background:radial-gradient(ellipse at center,rgba(0,0,0,.55) 0%,rgba(0,0,0,.9) 75%),var(--grano)}
+
+  /* Texto tipo brocha / aerosol */
+  .brocha-txt{display:inline-block;font-family:"Permanent Marker","Marker Felt",cursive;font-weight:400;text-transform:none;letter-spacing:.01em;line-height:1.05;color:var(--amarillo);font-size:clamp(1.5rem,4.2vw,2.4rem);transform:rotate(-3deg);margin-bottom:.35em;text-shadow:0 0 1px currentColor,0 0 10px rgba(252,217,44,.35)}
+  .brocha-txt.fucsia{color:var(--fucsia);text-shadow:0 0 1px currentColor,0 0 12px rgba(237,0,96,.35)}
+  .brocha-txt.negro{color:var(--negro);text-shadow:none}
+  .brocha-txt.blanco{color:var(--blanco);text-shadow:0 0 10px rgba(255,255,255,.25)}
+  .brocha-txt::after{content:"";display:block;height:.22em;margin-top:.05em;width:92%;background:currentColor;border-radius:40% 60% 50% 70%/60% 40% 70% 50%;opacity:.9;transform:rotate(-1deg) skewX(-20deg)}
+  .brocha-txt.sin-raya::after{display:none}
+
+  /* Íconos de negocios */
+  .negocios-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:40px}
+  .neg{background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.14);padding:26px 18px 22px;display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-height:170px;transition:background .18s,color .18s}
+  .neg svg{width:52px;height:52px;stroke:var(--amarillo);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;transition:stroke .18s}
+  .neg b{font-family:Anton,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(1.15rem,2.4vw,1.6rem);line-height:1}
+  .neg small{display:block;font-size:.9rem;color:#BDBDBD;margin-top:4px;line-height:1.35}
+  .neg:hover{background:var(--amarillo);color:var(--negro)}
+  .neg:hover svg{stroke:var(--negro)}
+  .neg:hover small{color:#222}
+  .neg.todo{background:var(--amarillo);color:var(--negro)}
+  .neg.todo svg{stroke:none;fill:var(--negro)}
+  .neg.todo small{color:#222}
+  @media (max-width:900px){.negocios-grid{grid-template-columns:repeat(2,1fr)}.neg{min-height:150px;padding:20px 14px}.neg svg{width:44px;height:44px}}
+
+
+  /* Menú celular */
+  .menu-btn{display:none;background:none;border:2px solid var(--blanco);color:var(--blanco);width:44px;height:40px;align-items:center;justify-content:center;cursor:pointer}
+  .menu-btn svg{width:22px;height:22px}
+  .menu-movil{display:none}
+  @media (max-width:800px){
+    .menu-btn{display:inline-flex}
+    header.top nav{gap:10px}
+    .menu-movil{position:fixed;inset:0;z-index:30;background:var(--negro) var(--grano);flex-direction:column;justify-content:center;padding:30px 28px;gap:6px}
+    .menu-movil.abierto{display:flex}
+    .menu-movil a{font-family:Anton,sans-serif;text-transform:uppercase;font-size:2.6rem;line-height:1.25;text-decoration:none;color:var(--blanco);transform:skewX(-8deg)}
+    .menu-movil a.cta{color:var(--amarillo)}
+    .menu-movil .cerrar{position:absolute;top:16px;right:20px;background:none;border:none;color:var(--blanco);font-size:2.4rem;line-height:1;cursor:pointer}
+  }
+
+  /* Video */
+  .video .marco{position:relative;aspect-ratio:16/9;background:var(--carbon);border:2px solid var(--amarillo);display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;margin-top:34px}
+  .video .marco iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .video .play{display:flex;flex-direction:column;align-items:center;gap:16px;text-decoration:none;padding:20px}
+  .video .play span:first-child{width:92px;height:92px;border-radius:50%;background:var(--amarillo);display:flex;align-items:center;justify-content:center}
+  .video .play svg{width:38px;height:38px;fill:var(--negro);margin-left:6px}
+  .video .play b{font-family:"Barlow Condensed",sans-serif;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+
+  /* Preguntas */
+  .faq details{border-top:2px solid var(--negro)}
+  .faq details:last-of-type{border-bottom:2px solid var(--negro)}
+  .faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font-family:Anton,sans-serif;text-transform:uppercase;font-size:clamp(1.25rem,3vw,1.7rem);line-height:1.1}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";flex:none;width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:var(--negro);color:var(--amarillo);font-size:1.6rem;transition:transform .2s}
+  .faq details[open] summary::after{content:"–"}
+  .faq details p{padding:0 0 24px;font-size:1.08rem}
+  .faq .lista{margin-top:34px}
+
+
+  /* Transformación */
+  .transf{background:var(--carbon) var(--grano)}
+  .pilares{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:40px}
+  .pilar{background:var(--negro);padding:36px 30px;border-top:6px solid var(--amarillo)}
+  .pilar:nth-child(2){border-top-color:var(--blanco)}
+  .pilar:nth-child(3){border-top-color:var(--fucsia)}
+  .pilar .frase-p{font-size:1.15rem;font-style:italic;color:var(--amarillo);margin:.6em 0 1em;line-height:1.4}
+  .pilar:nth-child(2) .frase-p{color:var(--blanco)}
+  .pilar:nth-child(3) .frase-p{color:#FF5A9A}
+  .pilar p{color:#C9C9C9}
+  @media (max-width:800px){.pilares{grid-template-columns:1fr}}
+  .cita{background:var(--amarillo);color:var(--negro);padding:80px 20px;text-align:center;overflow:hidden}
+  .cita blockquote{font-family:Anton,sans-serif;text-transform:uppercase;font-size:clamp(2rem,6vw,4.2rem);line-height:1.02;max-width:20ch;margin:0 auto;transform:skewX(-8deg)}
+  .cita .firma{display:block;margin-top:24px;font-family:"Permanent Marker",cursive;font-size:1.4rem;transform:rotate(-2deg)}
+
+
+  /* ===== Capa de color de marca ===== */
+  .tricolor{height:8px;background:linear-gradient(90deg,var(--amarillo) 0 25%,var(--fucsia) 25% 50%,var(--azul) 50% 75%,var(--hielo) 75% 100%)}
+  .anuncio{background:linear-gradient(90deg,var(--fucsia),var(--azul));color:var(--blanco)}
+  .hero::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(ellipse 60% 70% at 85% 25%,rgba(0,102,255,.55),transparent 70%),radial-gradient(ellipse 50% 60% at 10% 90%,rgba(237,0,96,.45),transparent 70%);mix-blend-mode:screen;pointer-events:none}
+  .hero .fondo{z-index:0}
+  .hero::after{z-index:0}
+  .brocha-txt.hielo{color:var(--hielo);text-shadow:0 0 12px rgba(185,223,255,.35)}
+  .brocha-txt.azul{color:var(--azul);text-shadow:none}
+  .manifiesto{border-top:none}
+  .manifiesto .remate{color:var(--hielo)}
+  .manifiesto .remate b{color:var(--amarillo);font-weight:400}
+  .camino{background:var(--azul)}
+  .camino .etq{color:var(--hielo)}
+  .camino li{border-top-color:rgba(255,255,255,.25)}
+  .camino li::before{background:var(--amarillo)}
+  .neg:nth-child(3n+1) svg{stroke:var(--amarillo)}
+  .neg:nth-child(3n+2) svg{stroke:var(--hielo)}
+  .neg:nth-child(3n) svg{stroke:#FF4D94}
+  .neg:nth-child(3n+1):hover{background:var(--amarillo)}
+  .neg:nth-child(3n+2):hover{background:var(--hielo)}
+  .neg:nth-child(3n):hover{background:var(--fucsia);color:var(--blanco)}
+  .neg:nth-child(3n):hover small{color:#FFE0EC}
+  .neg:nth-child(3n):hover svg{stroke:var(--blanco)}
+  .neg.todo{background:var(--fucsia);color:var(--blanco)}
+  .neg.todo svg{fill:var(--amarillo)}
+  .neg.todo small{color:#FFE0EC}
+  .dia.f1{background:var(--hielo)!important;color:var(--negro)!important}
+  #reto .etq.f1t{background:var(--hielo)!important;color:var(--negro)!important}
+  #reto .vivo{background:var(--azul);color:var(--blanco);border-left-color:var(--amarillo)}
+  .pilar{border-top:none;padding:40px 32px}
+  .pilar:nth-child(1){background:var(--azul)}
+  .pilar:nth-child(2){background:var(--fucsia)}
+  .pilar:nth-child(3){background:var(--hielo);color:var(--negro)}
+  .pilar .frase-p{font-family:"Permanent Marker",cursive;font-style:normal;font-size:1.35rem;line-height:1.3}
+  .pilar:nth-child(1) .frase-p{color:var(--amarillo)}
+  .pilar:nth-child(2) .frase-p{color:var(--amarillo)}
+  .pilar:nth-child(3) .frase-p{color:var(--fucsia)}
+  .pilar:nth-child(1) p:not(.frase-p),.pilar:nth-child(2) p:not(.frase-p){color:rgba(255,255,255,.88)}
+  .pilar:nth-child(3) p:not(.frase-p){color:#1d2a3a}
+  .cita{background:var(--fucsia) var(--grano);color:var(--blanco)}
+  .cita .firma{color:var(--amarillo)}
+  .foto{box-shadow:14px 14px 0 var(--azul),28px 28px 0 var(--fucsia)}
+  .foto .sello{background:var(--fucsia);color:var(--blanco)}
+  .lady .grid{padding-right:28px}
+  .fundacion h2{color:var(--blanco)}
+  .fundacion .brocha-txt{color:var(--amarillo)}
+  .precio{background:linear-gradient(160deg,#00113a 0%,#000 55%,#2a0016 100%)}
+  .precio .caja{border-color:var(--hielo)}
+  .precio .caja .izq{background:var(--hielo)}
+  .precio .izq .monto{color:var(--azul)}
+  .incluye li{border-top-color:rgba(0,0,0,.15)}
+  .pasos li::before{color:var(--fucsia)}
+  .faq{background:var(--hielo) var(--grano)!important}
+  .faq summary::after{background:var(--fucsia);color:var(--blanco)}
+  .faq details{border-top-color:var(--azul)}
+  .faq details:last-of-type{border-bottom-color:var(--azul)}
+  .video .marco{border-color:var(--hielo);background:radial-gradient(ellipse at center,rgba(0,102,255,.35),#0b0b0b 70%)}
+  .video .play span:first-child{background:var(--fucsia)}
+  .video .play svg{fill:var(--blanco)}
+  footer{border-top:none}
+
+  /* Negocios */
+  .lista-neg{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:30px}
+  .lista-neg span{font-family:Anton,sans-serif;text-transform:uppercase;font-size:clamp(1.6rem,4.6vw,2.8rem);line-height:1.1;color:var(--blanco)}
+  .lista-neg span:nth-child(even){color:transparent;-webkit-text-stroke:1.5px var(--blanco)}
+  .lista-neg span.todo{color:var(--amarillo)}
+
+  /* 21 días */
+  .dias{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin:36px 0 50px}
+  .dia{aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-family:Anton,sans-serif;font-size:clamp(1rem,3.6vw,2.2rem)}
+  .dia.f1{background:var(--blanco);color:var(--negro)}
+  .dia.f2{background:var(--amarillo);color:var(--negro)}
+  .dia.f3{background:var(--fucsia);color:var(--blanco)}
+  .fases{display:grid;grid-template-columns:repeat(3,1fr);gap:36px}
+  .fase .etq{display:inline-block;font-size:.95rem;padding:.25em .7em;margin-bottom:14px}
+  .fase:nth-child(1) .etq{background:var(--blanco);color:var(--negro)}
+  .fase:nth-child(2) .etq{background:var(--amarillo);color:var(--negro)}
+  .fase:nth-child(3) .etq{background:var(--fucsia);color:var(--blanco)}
+  .fase p{color:#BDBDBD}
+  .vivo{margin-top:50px;padding:22px 26px;border-left:6px solid var(--amarillo);background:var(--carbon);font-weight:600;font-size:1.1rem;max-width:none}
+  @media (max-width:800px){.fases{grid-template-columns:1fr;gap:30px}}
+
+  /* Lady */
+  .lady .grid{display:grid;grid-template-columns:5fr 7fr;gap:56px;align-items:center}
+  .foto{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--negro)}
+  .foto img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15)}
+  .foto .sin{position:absolute;inset:0;display:flex;align-items:flex-end;padding:24px;background:linear-gradient(160deg,#1a1a1a,#000)}
+  .foto .sin b{font-family:Anton,sans-serif;font-weight:400;text-transform:uppercase;font-size:3.4rem;line-height:.9;color:var(--blanco)}
+  .foto img + .sin{display:none}
+  .foto .sello{position:absolute;top:18px;right:18px;background:var(--amarillo);color:var(--negro);padding:.3em .8em;font-size:.9rem;transform:rotate(3deg)}
+  .lady h2{font-size:clamp(2.4rem,6.5vw,4.6rem)}
+  .lady p{font-size:1.12rem}
+  .lady p+p{margin-top:1em}
+  .sisepuede{margin-top:.6em;font-size:clamp(2.4rem,6.5vw,3.8rem)}
+  .moujiza{margin-top:1em;font-size:1rem;opacity:.75}
+  @media (max-width:800px){.lady .grid{grid-template-columns:1fr;gap:36px}}
+
+  /* Fundación */
+  .fundacion{background:var(--azul) var(--grano);color:var(--blanco)}
+  .fundacion .wrap{display:grid;grid-template-columns:7fr 5fr;gap:0 48px;align-items:center}
+  .fundacion .brocha-txt{grid-column:1/-1}
+  .fundacion h2{font-size:clamp(2.4rem,7vw,4.8rem)}
+  .fundacion p{font-size:1.15rem;font-weight:500}
+  @media (max-width:800px){.fundacion .wrap{grid-template-columns:1fr;gap:10px}}
+
+  /* Precio */
+  .precio .caja{display:grid;grid-template-columns:1fr 1fr;border:2px solid var(--blanco)}
+  .precio .izq{padding:44px 36px;background:var(--blanco);color:var(--negro)}
+  .precio .der{padding:44px 36px}
+  .precio h2{font-size:clamp(2.2rem,5.5vw,3.6rem)}
+  .monto{font-family:Anton,sans-serif;font-size:clamp(4.2rem,15vw,8rem);line-height:.9;margin:.2em 0 .1em}
+  .monto small{font-size:.3em;vertical-align:top;margin-left:.15em}
+  .incluye{list-style:none;margin-top:22px}
+  .incluye li{padding:9px 0;border-top:1px solid #D0D0D0;font-weight:600}
+  .pasos{list-style:none;counter-reset:p;margin:6px 0 32px}
+  .pasos li{counter-increment:p;position:relative;padding:16px 0 16px 64px;border-bottom:1px solid var(--gris);font-size:1.08rem}
+  .pasos li::before{content:counter(p);position:absolute;left:0;top:12px;font-family:Anton,sans-serif;font-size:2.4rem;line-height:1;color:var(--amarillo)}
+  .num{font-weight:700;white-space:nowrap;color:var(--amarillo)}
+  @media (max-width:800px){.precio .caja{grid-template-columns:1fr}.precio .izq,.precio .der{padding:34px 24px}}
+
+  /* Cierre */
+  .cierre{text-align:center;padding:130px 0}
+  .cierre .brocha{width:min(640px,90%);margin:0 auto .4em}
+  .cierre .brocha svg{width:100%;height:auto;display:block}
+  .cierre p{margin:0 auto 2em;font-size:1.2rem;color:var(--hueso)}
+
+  footer{background:var(--carbon);color:#A8A8A8;padding:56px 0 34px;font-size:.98rem;border-top:6px solid var(--amarillo)}
+  footer .fila{display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px}
+  footer .marca{height:46px;margin-bottom:14px}
+  footer .tit{color:var(--blanco);margin-bottom:8px}
+  footer a{text-decoration:none}
+  footer a:hover{color:var(--amarillo)}
+  footer .redes{display:flex;gap:12px;margin-top:14px}
+  footer .redes a{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:2px solid #555;color:var(--blanco)}
+  footer .redes a:hover{border-color:var(--amarillo);color:var(--amarillo)}
+  footer .redes svg{width:22px;height:22px}
+  footer .legal{margin-top:40px;padding-top:20px;border-top:1px solid var(--gris);font-size:.85rem}
+
+  .flota{position:fixed;right:18px;bottom:18px;z-index:20;width:60px;height:60px;border-radius:50%;background:var(--wa);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(0,0,0,.5);color:#fff}
+  .flota svg{width:32px;height:32px}
+</style>
+</head>
+<body>
+
+<div class="anuncio" aria-label="Anuncio">
+  <div class="pista">
+    <span>Empezamos en Colombia</span><span>★</span><span>Reto 21 Días con Lady Moujiza</span><span>★</span><span>Inscripción $99.000</span><span>★</span><span>Sin plata, sin excusas</span><span>★</span>
+    <span aria-hidden="true">Empezamos en Colombia</span><span aria-hidden="true">★</span><span aria-hidden="true">Reto 21 Días con Lady Moujiza</span><span aria-hidden="true">★</span><span aria-hidden="true">Inscripción $99.000</span><span aria-hidden="true">★</span><span aria-hidden="true">Sin plata, sin excusas</span><span aria-hidden="true">★</span>
+  </div>
+</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="marca" href="#inicio" aria-label="ARRANKA, inicio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 158" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="#FCD92C" d="M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 "/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 124" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="#FFFFFF" d="M 34 2 L 2 122 L 23 122 L 29 98 L 37 98 L 35 122 L 54 122 L 64 2 Z M 76 2 L 57 122 L 76 122 L 83 79 L 87 79 L 88 84 L 82 122 L 101 122 L 108 80 L 108 76 L 103 68 L 111 61 L 118 10 L 112 2 Z M 126 2 L 107 122 L 126 122 L 134 79 L 138 79 L 138 85 L 132 122 L 151 122 L 158 81 L 158 75 L 154 68 L 162 58 L 169 10 L 162 2 Z M 183 2 L 155 122 L 174 122 L 180 98 L 187 98 L 185 122 L 205 122 L 214 2 Z M 225 2 L 208 122 L 227 122 L 233 78 L 237 122 L 255 122 L 272 2 L 253 2 L 246 49 L 245 2 Z M 277 2 L 260 122 L 279 122 L 286 77 L 288 122 L 307 122 L 304 61 L 325 2 L 305 2 L 291 46 L 290 41 L 296 2 Z M 336 2 L 308 122 L 327 122 L 333 98 L 341 98 L 339 122 L 359 122 L 367 2 Z M 42 34 L 44 34 L 40 77 L 34 77 Z M 91 24 L 97 24 L 92 57 L 87 57 Z M 143 24 L 147 24 L 142 57 L 137 57 Z M 192 34 L 194 34 L 190 77 L 184 77 Z M 345 34 L 347 34 L 344 77 L 338 77 Z M 345 34 "/></svg></a>
+    <nav aria-label="Principal">
+      <a href="#reto">El reto</a>
+      <a href="#lady">Lady Moujiza</a>
+      <a href="#fundacion">Fundación</a>
+      <a href="#preguntas">Preguntas</a>
+      <a class="cta" href="#inscripcion">Inscríbete</a>
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </nav>
+  </div>
+</header>
+
+<div class="menu-movil" id="menu-movil" role="dialog" aria-label="Menú">
+  <button class="cerrar" type="button" aria-label="Cerrar menú">×</button>
+  <a href="#reto">El reto</a>
+  <a href="#para-quien">¿Es para ti?</a>
+  <a href="#video">Conoce a Lady</a>
+  <a href="#fundacion">Fundación</a>
+  <a href="#preguntas">Preguntas</a>
+  <a class="cta" href="#inscripcion">Inscríbete</a>
+</div>
+
+<main id="inicio">
+
+  <section class="hero" aria-label="Presentación">
+    <div class="fondo" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="brocha-txt sin-raya">Reto 21 días con Lady Moujiza</p>
+      <h1 class="logo-hero" aria-label="ARRANKA, ¡Ya es ya!"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 473 262" aria-hidden="true" focusable="false"><path class="rayo-p" fill-rule="evenodd" fill="#FCD92C" d="M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 "/><path class="letras-p" fill-rule="evenodd" fill="#FCD92C" d="M 130 19 L 98 139 L 119 139 L 125 115 L 133 115 L 131 139 L 150 139 L 160 19 Z M 172 19 L 153 139 L 172 139 L 179 96 L 183 96 L 184 101 L 178 139 L 197 139 L 204 97 L 204 93 L 199 85 L 207 78 L 214 27 L 208 19 Z M 222 19 L 203 139 L 222 139 L 230 96 L 234 96 L 234 102 L 228 139 L 247 139 L 254 98 L 254 92 L 250 85 L 258 75 L 265 27 L 258 19 Z M 279 19 L 251 139 L 270 139 L 276 115 L 283 115 L 281 139 L 301 139 L 310 19 Z M 321 19 L 304 139 L 323 139 L 329 95 L 333 139 L 351 139 L 368 19 L 349 19 L 342 66 L 341 19 Z M 373 19 L 356 139 L 375 139 L 382 94 L 384 139 L 403 139 L 400 78 L 421 19 L 401 19 L 387 63 L 386 58 L 392 19 Z M 432 19 L 404 139 L 423 139 L 429 115 L 437 115 L 435 139 L 455 139 L 463 19 Z M 138 51 L 140 51 L 136 94 L 130 94 Z M 187 41 L 193 41 L 188 74 L 183 74 Z M 239 41 L 243 41 L 238 74 L 233 74 Z M 288 51 L 290 51 L 286 94 L 280 94 Z M 441 51 L 443 51 L 440 94 L 434 94 Z M 441 51 "/><path class="brocha-p" fill-rule="evenodd" fill="#FFFFFF" d="M 284 255 L 285 254 L 286 255 L 285 256 Z M 307 244 L 307 245 L 308 245 L 308 244 Z M 456 240 L 457 241 L 457 240 Z M 411 240 L 412 241 L 412 240 Z M 299 240 L 298 241 L 298 242 L 299 241 Z M 276 234 L 276 235 L 277 234 Z M 449 231 L 449 232 L 450 231 Z M 395 227 L 396 226 L 397 227 L 397 228 L 396 229 L 395 228 Z M 442 226 L 441 227 L 442 227 Z M 250 223 L 250 224 L 251 224 Z M 464 222 L 465 223 L 466 223 L 465 222 Z M 267 221 L 266 222 L 266 223 L 267 223 L 268 222 L 269 222 L 270 221 Z M 321 219 L 322 218 L 323 219 L 322 220 Z M 250 219 L 251 220 L 251 219 Z M 262 215 L 262 216 L 263 216 L 263 215 Z M 331 205 L 332 206 L 332 207 L 331 208 L 331 209 L 328 212 L 328 213 L 325 216 L 325 217 L 323 219 L 322 218 L 322 217 L 323 216 L 323 215 L 325 213 L 325 212 L 327 210 L 327 209 Z M 331 205 L 332 204 L 333 205 L 332 206 Z M 298 205 L 299 204 L 300 205 L 299 206 Z M 367 200 L 368 199 L 369 200 L 368 201 Z M 460 199 L 461 200 L 461 199 Z M 368 199 L 369 198 L 370 199 L 369 200 Z M 270 199 L 269 200 L 271 200 Z M 369 198 L 370 197 L 371 198 L 370 199 Z M 330 196 L 327 199 L 327 201 L 326 202 L 325 202 L 324 203 L 324 204 L 323 205 L 322 204 L 322 206 L 321 207 L 321 208 L 319 210 L 319 211 L 317 213 L 317 214 L 316 215 L 316 216 L 313 219 L 313 221 L 312 222 L 312 225 L 310 227 L 310 228 L 312 228 L 314 230 L 315 230 L 316 231 L 316 233 L 317 233 L 317 232 L 318 231 L 319 231 L 320 232 L 320 233 L 320 231 L 322 229 L 323 229 L 328 224 L 328 223 L 330 221 L 331 221 L 331 220 L 332 219 L 332 218 L 333 217 L 334 218 L 334 221 L 335 222 L 335 225 L 336 225 L 337 226 L 337 227 L 338 227 L 340 229 L 339 230 L 340 230 L 341 229 L 342 230 L 343 229 L 344 229 L 344 228 L 345 227 L 346 227 L 346 225 L 347 224 L 346 223 L 346 221 L 347 220 L 346 220 L 345 221 L 343 221 L 342 220 L 342 219 L 341 218 L 341 215 L 340 214 L 340 210 L 341 209 L 341 200 L 338 197 L 338 196 L 338 197 L 337 198 L 335 196 Z M 310 191 L 311 190 L 312 191 L 311 192 Z M 444 188 L 445 189 L 445 191 L 444 192 L 444 193 L 443 194 L 443 195 L 442 196 L 442 197 L 441 198 L 441 199 L 440 200 L 439 200 L 439 201 L 438 202 L 438 203 L 437 204 L 436 203 L 436 200 L 437 199 L 437 198 L 438 197 L 438 196 L 440 194 L 440 193 L 442 191 L 442 190 Z M 268 185 L 269 185 L 270 186 L 270 185 Z M 387 184 L 388 185 L 386 187 L 385 187 L 384 188 L 383 188 L 383 189 L 379 193 L 379 194 L 378 195 L 378 196 L 377 197 L 376 196 L 376 193 L 373 190 L 371 190 L 370 191 L 368 191 L 367 192 L 366 192 L 365 191 L 366 192 L 365 193 L 365 194 L 363 196 L 363 197 L 362 198 L 362 199 L 360 201 L 359 201 L 358 202 L 359 203 L 356 206 L 357 207 L 357 211 L 358 212 L 357 213 L 356 213 L 356 214 L 357 214 L 359 216 L 358 217 L 358 218 L 359 217 L 361 217 L 362 218 L 364 218 L 365 219 L 366 219 L 367 218 L 369 218 L 371 216 L 372 216 L 378 210 L 378 209 L 380 207 L 379 207 L 378 206 L 377 207 L 376 207 L 373 210 L 372 210 L 370 212 L 369 212 L 368 213 L 365 213 L 364 212 L 364 209 L 365 208 L 367 208 L 368 207 L 370 207 L 370 206 L 373 203 L 373 202 L 374 201 L 374 200 L 375 199 L 375 198 L 376 197 L 378 199 L 378 201 L 379 202 L 380 202 L 381 203 L 389 203 L 390 204 L 388 206 L 388 207 L 380 215 L 380 217 L 379 218 L 380 219 L 380 221 L 381 221 L 381 220 L 382 219 L 383 219 L 385 217 L 386 217 L 388 215 L 389 215 L 389 214 L 394 209 L 394 208 L 395 207 L 395 206 L 396 205 L 396 201 L 395 200 L 395 199 L 394 198 L 393 198 L 392 197 L 386 197 L 385 196 L 391 190 L 393 190 L 393 188 L 394 187 L 392 185 L 388 185 Z M 443 180 L 442 181 L 441 181 L 440 182 L 440 183 L 436 187 L 436 188 L 433 191 L 433 192 L 432 193 L 432 194 L 430 196 L 430 197 L 428 199 L 428 201 L 426 203 L 426 204 L 424 206 L 424 210 L 425 211 L 425 212 L 424 213 L 425 213 L 426 214 L 426 216 L 425 217 L 425 218 L 425 217 L 426 216 L 428 218 L 428 219 L 430 217 L 431 218 L 431 220 L 432 221 L 432 223 L 433 224 L 433 237 L 432 238 L 432 242 L 433 243 L 435 243 L 435 237 L 434 236 L 434 220 L 435 219 L 435 218 L 437 216 L 438 217 L 438 218 L 438 217 L 437 216 L 441 212 L 441 211 L 442 210 L 442 209 L 443 208 L 444 208 L 445 207 L 445 205 L 446 204 L 448 204 L 450 206 L 450 207 L 451 208 L 451 209 L 452 210 L 452 211 L 454 213 L 454 214 L 456 214 L 458 216 L 458 218 L 459 217 L 460 217 L 461 218 L 459 220 L 460 219 L 461 219 L 462 218 L 463 219 L 463 220 L 464 220 L 465 219 L 465 218 L 466 217 L 467 218 L 468 218 L 469 217 L 470 217 L 471 216 L 469 216 L 468 215 L 469 214 L 470 214 L 470 213 L 469 213 L 468 212 L 470 210 L 469 210 L 468 211 L 467 210 L 467 209 L 468 208 L 469 208 L 468 207 L 466 209 L 465 208 L 462 208 L 458 204 L 458 202 L 457 201 L 457 199 L 455 197 L 455 194 L 454 193 L 454 185 L 450 181 L 450 180 L 449 180 L 450 181 L 449 182 L 448 182 L 446 180 Z M 326 178 L 325 179 L 323 179 L 322 180 L 321 180 L 319 182 L 319 183 L 318 184 L 317 184 L 316 185 L 316 186 L 313 189 L 312 189 L 311 190 L 310 189 L 310 193 L 309 194 L 308 194 L 305 197 L 305 198 L 304 199 L 303 198 L 303 201 L 301 203 L 300 203 L 299 202 L 298 202 L 297 201 L 297 200 L 298 199 L 298 198 L 297 199 L 295 197 L 295 195 L 294 194 L 294 189 L 293 188 L 293 184 L 291 182 L 289 182 L 288 181 L 289 180 L 290 180 L 287 180 L 286 181 L 285 180 L 283 182 L 282 181 L 282 184 L 281 185 L 280 184 L 279 184 L 280 185 L 280 186 L 279 187 L 278 186 L 278 187 L 279 187 L 280 188 L 280 190 L 279 191 L 279 194 L 280 195 L 280 194 L 279 193 L 279 192 L 280 191 L 282 193 L 282 195 L 283 196 L 282 197 L 280 197 L 280 198 L 281 198 L 282 199 L 282 200 L 283 200 L 284 201 L 284 202 L 285 203 L 285 204 L 284 205 L 283 205 L 284 205 L 285 204 L 287 206 L 287 208 L 288 209 L 288 210 L 289 211 L 289 213 L 290 213 L 291 214 L 291 215 L 290 216 L 291 215 L 292 215 L 293 216 L 293 218 L 292 219 L 292 220 L 291 221 L 291 222 L 290 223 L 289 222 L 290 223 L 290 224 L 288 226 L 288 228 L 287 229 L 286 229 L 287 230 L 285 232 L 285 235 L 284 236 L 284 237 L 283 238 L 283 240 L 281 242 L 280 242 L 281 243 L 281 244 L 280 245 L 280 246 L 279 247 L 278 247 L 278 248 L 279 249 L 278 250 L 278 251 L 277 252 L 277 254 L 278 255 L 278 257 L 280 257 L 281 258 L 281 260 L 281 259 L 284 256 L 286 256 L 286 255 L 287 254 L 289 254 L 290 255 L 289 254 L 289 253 L 290 252 L 290 249 L 291 248 L 292 248 L 292 246 L 293 245 L 293 243 L 294 242 L 294 240 L 296 238 L 296 237 L 297 236 L 297 233 L 298 232 L 299 232 L 299 229 L 301 227 L 301 225 L 302 224 L 302 222 L 303 221 L 305 221 L 305 217 L 308 214 L 308 213 L 309 212 L 309 211 L 312 208 L 312 207 L 314 205 L 314 204 L 315 203 L 316 203 L 316 202 L 318 200 L 319 200 L 319 199 L 320 198 L 321 198 L 321 196 L 324 193 L 324 192 L 325 191 L 325 190 L 330 185 L 330 180 L 329 180 L 327 178 Z M 431 163 L 429 165 L 429 166 L 428 167 L 428 169 L 427 170 L 427 171 L 426 172 L 426 173 L 425 174 L 425 175 L 421 179 L 421 181 L 420 182 L 420 183 L 418 185 L 417 184 L 417 182 L 416 181 L 416 179 L 415 178 L 415 176 L 414 175 L 414 173 L 413 172 L 413 170 L 412 169 L 411 169 L 410 168 L 409 168 L 408 169 L 406 169 L 405 170 L 405 171 L 404 172 L 404 174 L 406 176 L 406 178 L 407 179 L 407 181 L 406 182 L 407 182 L 409 184 L 409 186 L 410 187 L 410 189 L 411 190 L 411 191 L 412 192 L 412 194 L 414 196 L 414 198 L 413 199 L 413 201 L 411 203 L 411 205 L 410 206 L 410 208 L 409 209 L 409 210 L 408 211 L 408 212 L 407 213 L 407 215 L 406 216 L 406 217 L 405 218 L 405 221 L 404 222 L 404 224 L 403 225 L 402 225 L 401 226 L 399 226 L 398 227 L 397 226 L 394 226 L 393 227 L 385 227 L 384 228 L 377 228 L 376 229 L 373 229 L 372 230 L 366 230 L 365 231 L 361 231 L 360 232 L 356 232 L 355 233 L 354 232 L 354 231 L 354 232 L 352 234 L 347 234 L 346 235 L 343 235 L 342 236 L 340 236 L 339 237 L 337 237 L 336 238 L 335 237 L 334 237 L 333 238 L 332 238 L 330 240 L 326 240 L 325 241 L 324 241 L 323 242 L 320 242 L 316 246 L 316 247 L 315 248 L 315 250 L 316 251 L 316 252 L 319 252 L 320 253 L 321 253 L 322 252 L 323 252 L 324 251 L 325 251 L 326 250 L 328 250 L 329 249 L 331 249 L 332 248 L 333 248 L 334 247 L 335 247 L 336 246 L 337 246 L 338 247 L 340 245 L 341 246 L 343 244 L 346 244 L 347 243 L 349 243 L 350 242 L 351 243 L 352 243 L 352 242 L 353 241 L 357 241 L 358 240 L 359 240 L 360 239 L 361 239 L 362 240 L 362 241 L 364 241 L 364 240 L 363 239 L 364 238 L 367 238 L 368 237 L 370 237 L 371 236 L 372 237 L 374 235 L 380 235 L 382 233 L 385 233 L 386 232 L 387 232 L 388 231 L 389 231 L 391 229 L 392 230 L 392 231 L 392 229 L 393 228 L 394 229 L 396 229 L 397 228 L 398 228 L 398 227 L 399 226 L 400 227 L 401 226 L 403 226 L 404 227 L 404 229 L 403 230 L 404 229 L 405 229 L 406 230 L 406 232 L 405 233 L 406 233 L 406 232 L 407 231 L 407 230 L 408 229 L 409 229 L 410 230 L 409 229 L 409 228 L 410 227 L 411 227 L 412 228 L 412 227 L 415 224 L 414 223 L 414 222 L 415 221 L 414 220 L 414 219 L 415 218 L 415 216 L 416 215 L 416 214 L 418 212 L 418 209 L 420 207 L 420 202 L 421 201 L 421 198 L 423 196 L 423 195 L 424 194 L 424 192 L 425 191 L 425 190 L 426 189 L 426 187 L 427 186 L 427 185 L 429 183 L 429 182 L 430 181 L 430 180 L 431 179 L 431 178 L 432 177 L 432 176 L 433 175 L 433 174 L 435 172 L 435 171 L 436 170 L 437 170 L 437 164 L 436 164 L 435 163 Z M 431 163 "/></svg></h1>
+      <p class="frase">Empezamos en Colombia con el Reto 21 Días con Lady Moujiza, para que abras o hagas crecer tu negocio.</p>
+      <div class="acciones">
+        <a class="btn" href="#inscripcion">Quiero arrancar</a>
+        <a class="btn linea" href="#reto">Ver el reto</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="tricolor" aria-hidden="true"></div>
+  <section class="manifiesto con-foto">
+    <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1552538962-40822613a09d?auto=format&fit=crop&w=1800&q=70')" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="brocha-txt fucsia">Sin plata, sin excusas</p>
+      <h2>Aquí nadie<br>se rinde.</h2>
+      <div class="texto">
+        <div>
+          <p>Cuando falta el capital, cuando las ventas no llegan y todos te dicen que no se puede, la mayoría se detiene a esperar el momento perfecto.</p>
+          <p>Nosotros elegimos avanzar. Empezamos con lo que tenemos, con fe, disciplina y perseverancia. Un paso firme cada día.</p>
+        </div>
+        <p class="remate"><b>Alista, vende y gana.</b><br>Menos gente, más ganancia.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="transf" id="transformacion">
+    <div class="wrap">
+      <p class="brocha-txt hielo">Lo que vas a transformar</p>
+      <h2>Mente. Negocio.<br>Propósito.</h2>
+      <p>Todo negocio próspero nace de una mente clara y un corazón firme. Por eso el reto transforma tres áreas de tu vida al mismo tiempo.</p>
+      <div class="pilares">
+        <div class="pilar">
+          <h3>Tu mente</h3>
+          <p class="frase-p">"Tus resultados son el reflejo de tus creencias. Cambia la creencia y cambiará el resultado."</p>
+          <p>Identifica los pensamientos que te detienen y reemplázalos por decisiones firmes y una visión clara de quién quieres ser.</p>
+        </div>
+        <div class="pilar">
+          <h3>Tu negocio</h3>
+          <p class="frase-p">"Un pequeño avance diario construye un gran resultado."</p>
+          <p>Organiza, define tus precios y vende con estrategia. Cada día aplicas una mejora concreta que se nota en tus ventas.</p>
+        </div>
+        <div class="pilar">
+          <h3>Tu propósito</h3>
+          <p class="frase-p">"La gratitud abre la puerta a la abundancia."</p>
+          <p>La fe, la gratitud y el servicio son la base. Cuando sabes para qué trabajas, encuentras la fuerza para no rendirte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cita" role="note">
+    <blockquote>Tu vida cambia en el instante en que tomas una decisión verdadera.</blockquote>
+    <span class="firma">— Lady Moujiza</span>
+  </div>
+
+  <section class="claro" id="caminos">
+    <div class="wrap">
+      <p class="brocha-txt azul">Escoge tu camino</p>
+      <h2>Un reto.<br>Dos caminos.</h2>
+      <p>Ya sea que estés dando el primer paso o que tu negocio no esté dando los resultados que esperas, el reto se adapta a ti.</p>
+      <div class="caminos">
+        <div class="camino">
+          <span class="etq cond">Camino 1</span>
+          <h3>Quiero abrir mi negocio</h3>
+          <p>Para ti, que tienes la idea y sientes que aún no cuentas con los recursos para empezar.</p>
+          <ul>
+            <li>Empieza con los recursos que ya tienes, sin esperar el capital ideal</li>
+            <li>Define qué vender, a quién y a qué precio</li>
+            <li>Lanza tu negocio preparado para vender desde el primer día</li>
+          </ul>
+        </div>
+        <div class="camino b">
+          <span class="etq cond">Camino 2</span>
+          <h3>Ya tengo negocio y quiero que crezca</h3>
+          <p>Para ti, que trabajas sin descanso y sientes que las ventas y las ganancias no reflejan tu esfuerzo.</p>
+          <ul>
+            <li>Organiza tu negocio para atender más rápido y mejor</li>
+            <li>Logra más con un equipo más eficiente</li>
+            <li>Aumenta tus ventas y tus ganancias reales</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="para-quien" class="con-foto">
+    <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1647140655214-e4a2d914971f?auto=format&fit=crop&w=1800&q=70')" aria-hidden="true"></div>
+    <div class="wrap">
+      <p class="brocha-txt hielo">Tu negocio cabe aquí</p>
+      <h2>¿Es para ti?</h2>
+      <p>Si tienes o sueñas con tener un negocio como estos, este reto es para ti: con local, en la calle o desde tu casa.</p>
+      <div class="negocios-grid">
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4 8.1 15.9M14.5 14.5 20 20M8.1 8.1 12 12"/></svg><div><b>Peluquería y barbería</b><small>Cortes, color y peinados</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11a8 6 0 0 1 16 0z"/><path d="M3 14.5h18"/><path d="M4 14.5c1 1.6 2 1.6 3 0s2-1.6 3 0 2 1.6 3 0 2-1.6 3 0 2 1.6 3 0"/><path d="M4.5 17.5h15a0 0 0 0 1 0 0 2.5 2.5 0 0 1-2.5 2.5H7a2.5 2.5 0 0 1-2.5-2.5z"/><path d="M9 8h.01M12 7h.01M15 8h.01"/></svg><div><b>Comida rápida</b><small>Hamburguesas, perros, salchipapas</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="11" width="12" height="10" rx="2"/><path d="M9 11V8h6v3"/><path d="M10 8V3h4v5"/><path d="M9 15h6"/></svg><div><b>Uñas</b><small>Manicure, pedicure y acrílicas</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c-4.5 0-8-3-8-7 2.5 0 5 1 6.5 3"/><path d="M12 21c4.5 0 8-3 8-7-2.5 0-5 1-6.5 3"/><path d="M12 21c-2-2-3-4.5-3-7.5S10.5 7 12 5c1.5 2 3 5 3 8.5s-1 5.5-3 7.5z"/></svg><div><b>Spa y belleza</b><small>Masajes, cejas y pestañas</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11 12 22l5-11"/><path d="M17 7A5 5 0 0 0 7 7a3 3 0 0 0 0 4h10a3 3 0 0 0 0-4z"/><path d="M9 14h6"/></svg><div><b>Helados y postres</b><small>Paletas, cholados, tortas</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 14.5c-2-2-2-5.5.5-8s6-2.5 8-.5l4 4c2 2 2 5.5-.5 8s-6 2.5-8 .5z"/><path d="M8 9.5l1.5 1.5M11 6.8l1.4 1.4M12.2 12.2l1.5 1.5M15.2 9.5l1.4 1.4"/><path d="M3 21l3.2-3.2M18 6l3-3"/></svg><div><b>Chorizos y fritanga</b><small>Asados, picadas y frituras</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1.5 13h-9z"/><path d="M14 8 16 2h3"/><path d="M6.7 13.5h10.6"/></svg><div><b>Jugos y batidos</b><small>Jugos naturales y bebidas</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15a9 9 0 0 1 18 0z"/><path d="M3 15c.8 1.5 1.7 1.5 2.5 0s1.7-1.5 2.5 0 1.7 1.5 2.5 0 1.7-1.5 2.5 0 1.7 1.5 2.5 0 1.7-1.5 2.5 0 1.7 1.5 2.5 0"/><path d="M9 10.5h.01M13 9h.01M15.5 11.5h.01"/></svg><div><b>Empanadas y arepas</b><small>Desayunos y comida casera</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13c-1.5 0-2-1-2-2.5C2 7 6.5 5 12 5s10 2 10 5.5c0 1.5-.5 2.5-2 2.5v6a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/><path d="M9 9v2M12 8.5v2.5M15 9v2"/></svg><div><b>Panadería</b><small>Pan, pasteles y café</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9 4.5 4h15L21 9"/><path d="M3 9c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3c0 1.7 1.3 3 3 3s3-1.3 3-3"/><path d="M5 12v9h14v-9"/><path d="M10 21v-5h4v5"/></svg><div><b>Tienda o miscelánea</b><small>Barrio, minimercado, variedades</small></div></div>
+        <div class="neg"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg><div><b>Ventas por catálogo</b><small>Ropa, belleza y venta en redes</small></div></div>
+        <div class="neg todo"><svg viewBox="0 0 116 158" aria-hidden="true"><path d="M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z"/></svg><div><b>Cualquier negocio</b><small>Si vendes algo, este reto es para ti</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="claro" id="reto">
+    <div class="wrap">
+      <p class="brocha-txt fucsia">Paso a paso</p>
+      <h2>21 días.<br>Un paso cada día.</h2>
+      <p>Primero fortalecemos la mente y el espíritu; después construimos el negocio. Cada día un paso concreto, guiado y acompañado por Lady de principio a fin.</p>
+      <div class="dias" aria-hidden="true">
+        <div class="dia f1">1</div><div class="dia f1">2</div><div class="dia f1">3</div><div class="dia f1">4</div><div class="dia f1">5</div><div class="dia f1">6</div><div class="dia f1">7</div>
+        <div class="dia f2">8</div><div class="dia f2">9</div><div class="dia f2">10</div><div class="dia f2">11</div><div class="dia f2">12</div><div class="dia f2">13</div><div class="dia f2">14</div>
+        <div class="dia f3">15</div><div class="dia f3">16</div><div class="dia f3">17</div><div class="dia f3">18</div><div class="dia f3">19</div><div class="dia f3">20</div><div class="dia f3">21</div>
+      </div>
+      <div class="fases">
+        <div class="fase">
+          <span class="etq cond f1t">Días 1 al 7</span>
+          <h3>Mente clara,<br>alma sana</h3>
+          <p style="color:#333">Antes de hablar de dinero, se fortalece lo personal y lo espiritual: la fe, la disciplina y la mentalidad de quienes alcanzan sus metas.</p>
+        </div>
+        <div class="fase">
+          <span class="etq cond">Días 8 al 14</span>
+          <h3>Alista</h3>
+          <p style="color:#333">Organiza tu negocio para atender con rapidez y excelencia, con tus números claros y bajo control.</p>
+        </div>
+        <div class="fase">
+          <span class="etq cond">Días 15 al 21</span>
+          <h3>Vende y gana</h3>
+          <p style="color:#333">Vender más, con un equipo más eficiente y mejores ganancias, y trazar el camino para crecer y formalizarte.</p>
+        </div>
+      </div>
+      <p class="vivo">Clases en video con Lady Moujiza, sesiones en vivo y acompañamiento por WhatsApp durante los 21 días.</p>
+    </div>
+  </section>
+
+  <section class="lady" id="lady">
+    <div class="wrap grid">
+      <div class="foto">
+        <img src="lady.jpg" alt="Lady Moujiza, creadora de ARRANKA" onerror="this.remove()">
+        <div class="sin"><b>Lady<br>Moujiza</b></div>
+        <span class="sello cond">Creadora de ARRANKA</span>
+      </div>
+      <div>
+        <p class="brocha-txt">Mi historia</p>
+        <h2>Creí tenerlo todo. Estaba equivocada.</h2>
+        <p>Llegué a la cima por el camino equivocado y lo perdí todo. Volví a empezar desde cero, con un pequeño emprendimiento de jugos y empanadas en Cali, con mis manos y con fe.</p>
+        <p>Dios me levantó. Hoy, con Lotel, fabrico cabañas y desarrollo proyectos hoteleros, y ya estamos construyendo nuestro primer hotel. Así nació ARRANKA: para enseñarte lo que nadie me enseñó y acompañarte a dar el primer paso, sin importar desde dónde empieces.</p>
+        <span class="brocha-txt fucsia sisepuede">¡Sí se puede!</span>
+        <p class="moujiza">Moujiza significa "milagro". Mi vida es uno, y el tuyo también puede empezar hoy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="video" id="video">
+    <div class="wrap">
+      <p class="brocha-txt hielo">Escúchala y decide</p>
+      <h2>Conoce a Lady</h2>
+      <p>Antes de inscribirte, conoce a Lady y su forma de enseñar. Así sabrás con quién darás el primer paso.</p>
+      <div class="marco">
+        <!-- Cuando el video esté en YouTube, se reemplaza este enlace por el video -->
+        <a class="play" href="https://www.youtube.com/@arrankaya" target="_blank" rel="noopener">
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l15 8-15 8z"/></svg></span>
+          <b>Ver videos en YouTube</b>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="fundacion" id="fundacion">
+    <div class="wrap">
+      <p class="brocha-txt blanco">Con propósito</p>
+      <h2>Cuando tú arrancas, un niño también.</h2>
+      <p>Una parte de cada inscripción se destina a la Fundación Lucero de Esperanza, que acompaña a niños en Colombia. Al invertir en tu futuro, también siembras esperanza en el de un niño.</p>
+    </div>
+  </section>
+
+  <section class="precio" id="inscripcion">
+    <div class="wrap">
+      <div class="caja">
+        <div class="izq">
+          <p class="cond">Reto 21 Días con Lady Moujiza</p>
+          <div class="monto">$99.000<small>COP</small></div>
+          <ul class="incluye">
+            <li>Acceso completo a los 21 días del reto</li>
+            <li>Clases en video con Lady Moujiza</li>
+            <li>Sesiones en vivo y acompañamiento por WhatsApp</li>
+            <li>Dos rutas: emprender o hacer crecer tu negocio</li>
+          </ul>
+        </div>
+        <div class="der">
+          <p class="brocha-txt fucsia">¡Arranca hoy!</p>
+          <h2>Inscríbete en 3 pasos</h2>
+          <ol class="pasos">
+            <li>Paga <b>$99.000</b> por Nequi al <span class="num">323 805 1612</span>.</li>
+            <li>Envía el comprobante por WhatsApp al <span class="num">311 635 1509</span> con tu nombre.</li>
+            <li>Te damos la bienvenida y la fecha de inicio de tu reto.</li>
+          </ol>
+          <a class="btn wa" href="https://wa.me/573116351509?text=Hola%20Lady%2C%20quiero%20inscribirme%20en%20el%20Reto%2021%20D%C3%ADas%20de%20ARRANKA" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>
+            Inscribirme por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq claro" id="preguntas">
+    <div class="wrap">
+      <p class="brocha-txt fucsia">Resolvemos tus dudas</p>
+      <h2>Preguntas frecuentes</h2>
+      <div class="lista">
+        <details><summary>¿Necesito capital para empezar?</summary><p>No. El reto está pensado para que arranques con lo que ya tienes. Te enseñamos a organizarte y a dar los primeros pasos sin esperar a tener todo el capital.</p></details>
+        <details><summary>¿Tengo que tener un negocio ya abierto?</summary><p>No. Hay dos caminos: uno para quien quiere abrir su negocio y otro para quien ya lo tiene y quiere hacerlo crecer.</p></details>
+        <details><summary>¿Cómo son las clases?</summary><p>Son clases en video con Lady, más encuentros en vivo y acompañamiento por WhatsApp durante los 21 días.</p></details>
+        <details><summary>¿Necesito computador?</summary><p>No. Puedes seguir todo el reto desde tu celular.</p></details>
+        <details><summary>¿Necesito Cámara de Comercio o RUT?</summary><p>No para empezar. El reto también te muestra el camino para formalizarte cuando estés listo.</p></details>
+        <details><summary>¿Cómo pago y cuándo empiezo?</summary><p>Pagas $99.000 por Nequi al 323 805 1612 y envías el comprobante por WhatsApp al 311 635 1509. Ahí te damos la bienvenida y la fecha de inicio de tu reto.</p></details>
+        <details><summary>¿A dónde va mi aporte a la fundación?</summary><p>Una parte de cada inscripción va a la Fundación Lucero de Esperanza, que trabaja para ayudar a niños en Colombia.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cierre con-foto centro">
+    <div class="bg" style="background-image:url('https://images.unsplash.com/photo-1549733539-add955b1e47f?auto=format&fit=crop&w=1800&q=70')" aria-hidden="true"></div>
+    <div class="wrap">
+      <h2 class="brocha" aria-label="¡Ya es ya!"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225 101" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="#FCD92C" d="M 36 94 L 37 93 L 38 94 L 37 95 Z M 59 83 L 59 84 L 60 84 L 60 83 Z M 208 79 L 209 80 L 209 79 Z M 163 79 L 164 80 L 164 79 Z M 51 79 L 50 80 L 50 81 L 51 80 Z M 28 73 L 28 74 L 29 73 Z M 201 70 L 201 71 L 202 70 Z M 147 66 L 148 65 L 149 66 L 149 67 L 148 68 L 147 67 Z M 194 65 L 193 66 L 194 66 Z M 2 62 L 2 63 L 3 63 Z M 216 61 L 217 62 L 218 62 L 217 61 Z M 19 60 L 18 61 L 18 62 L 19 62 L 20 61 L 21 61 L 22 60 Z M 73 58 L 74 57 L 75 58 L 74 59 Z M 2 58 L 3 59 L 3 58 Z M 14 54 L 14 55 L 15 55 L 15 54 Z M 83 44 L 84 45 L 84 46 L 83 47 L 83 48 L 80 51 L 80 52 L 77 55 L 77 56 L 75 58 L 74 57 L 74 56 L 75 55 L 75 54 L 77 52 L 77 51 L 79 49 L 79 48 Z M 83 44 L 84 43 L 85 44 L 84 45 Z M 50 44 L 51 43 L 52 44 L 51 45 Z M 119 39 L 120 38 L 121 39 L 120 40 Z M 212 38 L 213 39 L 213 38 Z M 120 38 L 121 37 L 122 38 L 121 39 Z M 22 38 L 21 39 L 23 39 Z M 121 37 L 122 36 L 123 37 L 122 38 Z M 82 35 L 79 38 L 79 40 L 78 41 L 77 41 L 76 42 L 76 43 L 75 44 L 74 43 L 74 45 L 73 46 L 73 47 L 71 49 L 71 50 L 69 52 L 69 53 L 68 54 L 68 55 L 65 58 L 65 60 L 64 61 L 64 64 L 62 66 L 62 67 L 64 67 L 66 69 L 67 69 L 68 70 L 68 72 L 69 72 L 69 71 L 70 70 L 71 70 L 72 71 L 72 72 L 72 70 L 74 68 L 75 68 L 80 63 L 80 62 L 82 60 L 83 60 L 83 59 L 84 58 L 84 57 L 85 56 L 86 57 L 86 60 L 87 61 L 87 64 L 88 64 L 89 65 L 89 66 L 90 66 L 92 68 L 91 69 L 92 69 L 93 68 L 94 69 L 95 68 L 96 68 L 96 67 L 97 66 L 98 66 L 98 64 L 99 63 L 98 62 L 98 60 L 99 59 L 98 59 L 97 60 L 95 60 L 94 59 L 94 58 L 93 57 L 93 54 L 92 53 L 92 49 L 93 48 L 93 39 L 90 36 L 90 35 L 90 36 L 89 37 L 87 35 Z M 62 30 L 63 29 L 64 30 L 63 31 Z M 196 27 L 197 28 L 197 30 L 196 31 L 196 32 L 195 33 L 195 34 L 194 35 L 194 36 L 193 37 L 193 38 L 192 39 L 191 39 L 191 40 L 190 41 L 190 42 L 189 43 L 188 42 L 188 39 L 189 38 L 189 37 L 190 36 L 190 35 L 192 33 L 192 32 L 194 30 L 194 29 Z M 20 24 L 21 24 L 22 25 L 22 24 Z M 139 23 L 140 24 L 138 26 L 137 26 L 136 27 L 135 27 L 135 28 L 131 32 L 131 33 L 130 34 L 130 35 L 129 36 L 128 35 L 128 32 L 125 29 L 123 29 L 122 30 L 120 30 L 119 31 L 118 31 L 117 30 L 118 31 L 117 32 L 117 33 L 115 35 L 115 36 L 114 37 L 114 38 L 112 40 L 111 40 L 110 41 L 111 42 L 108 45 L 109 46 L 109 50 L 110 51 L 109 52 L 108 52 L 108 53 L 109 53 L 111 55 L 110 56 L 110 57 L 111 56 L 113 56 L 114 57 L 116 57 L 117 58 L 118 58 L 119 57 L 121 57 L 123 55 L 124 55 L 130 49 L 130 48 L 132 46 L 131 46 L 130 45 L 129 46 L 128 46 L 125 49 L 124 49 L 122 51 L 121 51 L 120 52 L 117 52 L 116 51 L 116 48 L 117 47 L 119 47 L 120 46 L 122 46 L 122 45 L 125 42 L 125 41 L 126 40 L 126 39 L 127 38 L 127 37 L 128 36 L 130 38 L 130 40 L 131 41 L 132 41 L 133 42 L 141 42 L 142 43 L 140 45 L 140 46 L 132 54 L 132 56 L 131 57 L 132 58 L 132 60 L 133 60 L 133 59 L 134 58 L 135 58 L 137 56 L 138 56 L 140 54 L 141 54 L 141 53 L 146 48 L 146 47 L 147 46 L 147 45 L 148 44 L 148 40 L 147 39 L 147 38 L 146 37 L 145 37 L 144 36 L 138 36 L 137 35 L 143 29 L 145 29 L 145 27 L 146 26 L 144 24 L 140 24 Z M 195 19 L 194 20 L 193 20 L 192 21 L 192 22 L 188 26 L 188 27 L 185 30 L 185 31 L 184 32 L 184 33 L 182 35 L 182 36 L 180 38 L 180 40 L 178 42 L 178 43 L 176 45 L 176 49 L 177 50 L 177 51 L 176 52 L 177 52 L 178 53 L 178 55 L 177 56 L 177 57 L 177 56 L 178 55 L 180 57 L 180 58 L 182 56 L 183 57 L 183 59 L 184 60 L 184 62 L 185 63 L 185 76 L 184 77 L 184 81 L 185 82 L 187 82 L 187 76 L 186 75 L 186 59 L 187 58 L 187 57 L 189 55 L 190 56 L 190 57 L 190 56 L 189 55 L 193 51 L 193 50 L 194 49 L 194 48 L 195 47 L 196 47 L 197 46 L 197 44 L 198 43 L 200 43 L 202 45 L 202 46 L 203 47 L 203 48 L 204 49 L 204 50 L 206 52 L 206 53 L 208 53 L 210 55 L 210 57 L 211 56 L 212 56 L 213 57 L 211 59 L 212 58 L 213 58 L 214 57 L 215 58 L 215 59 L 216 59 L 217 58 L 217 57 L 218 56 L 219 57 L 220 57 L 221 56 L 222 56 L 223 55 L 221 55 L 220 54 L 221 53 L 222 53 L 222 52 L 221 52 L 220 51 L 222 49 L 221 49 L 220 50 L 219 49 L 219 48 L 220 47 L 221 47 L 220 46 L 218 48 L 217 47 L 214 47 L 210 43 L 210 41 L 209 40 L 209 38 L 207 36 L 207 33 L 206 32 L 206 24 L 202 20 L 202 19 L 201 19 L 202 20 L 201 21 L 200 21 L 198 19 Z M 78 17 L 77 18 L 75 18 L 74 19 L 73 19 L 71 21 L 71 22 L 70 23 L 69 23 L 68 24 L 68 25 L 65 28 L 64 28 L 63 29 L 62 28 L 62 32 L 61 33 L 60 33 L 57 36 L 57 37 L 56 38 L 55 37 L 55 40 L 53 42 L 52 42 L 51 41 L 50 41 L 49 40 L 49 39 L 50 38 L 50 37 L 49 38 L 47 36 L 47 34 L 46 33 L 46 28 L 45 27 L 45 23 L 43 21 L 41 21 L 40 20 L 41 19 L 42 19 L 39 19 L 38 20 L 37 19 L 35 21 L 34 20 L 34 23 L 33 24 L 32 23 L 31 23 L 32 24 L 32 25 L 31 26 L 30 25 L 30 26 L 31 26 L 32 27 L 32 29 L 31 30 L 31 33 L 32 34 L 32 33 L 31 32 L 31 31 L 32 30 L 34 32 L 34 34 L 35 35 L 34 36 L 32 36 L 32 37 L 33 37 L 34 38 L 34 39 L 35 39 L 36 40 L 36 41 L 37 42 L 37 43 L 36 44 L 35 44 L 36 44 L 37 43 L 39 45 L 39 47 L 40 48 L 40 49 L 41 50 L 41 52 L 42 52 L 43 53 L 43 54 L 42 55 L 43 54 L 44 54 L 45 55 L 45 57 L 44 58 L 44 59 L 43 60 L 43 61 L 42 62 L 41 61 L 42 62 L 42 63 L 40 65 L 40 67 L 39 68 L 38 68 L 39 69 L 37 71 L 37 74 L 36 75 L 36 76 L 35 77 L 35 79 L 33 81 L 32 81 L 33 82 L 33 83 L 32 84 L 32 85 L 31 86 L 30 86 L 30 87 L 31 88 L 30 89 L 30 90 L 29 91 L 29 93 L 30 94 L 30 96 L 32 96 L 33 97 L 33 99 L 33 98 L 36 95 L 38 95 L 38 94 L 39 93 L 41 93 L 42 94 L 41 93 L 41 92 L 42 91 L 42 88 L 43 87 L 44 87 L 44 85 L 45 84 L 45 82 L 46 81 L 46 79 L 48 77 L 48 76 L 49 75 L 49 72 L 50 71 L 51 71 L 51 68 L 53 66 L 53 64 L 54 63 L 54 61 L 55 60 L 57 60 L 57 56 L 60 53 L 60 52 L 61 51 L 61 50 L 64 47 L 64 46 L 66 44 L 66 43 L 67 42 L 68 42 L 68 41 L 70 39 L 71 39 L 71 38 L 72 37 L 73 37 L 73 35 L 76 32 L 76 31 L 77 30 L 77 29 L 82 24 L 82 19 L 81 19 L 79 17 Z M 183 2 L 181 4 L 181 5 L 180 6 L 180 8 L 179 9 L 179 10 L 178 11 L 178 12 L 177 13 L 177 14 L 173 18 L 173 20 L 172 21 L 172 22 L 170 24 L 169 23 L 169 21 L 168 20 L 168 18 L 167 17 L 167 15 L 166 14 L 166 12 L 165 11 L 165 9 L 164 8 L 163 8 L 162 7 L 161 7 L 160 8 L 158 8 L 157 9 L 157 10 L 156 11 L 156 13 L 158 15 L 158 17 L 159 18 L 159 20 L 158 21 L 159 21 L 161 23 L 161 25 L 162 26 L 162 28 L 163 29 L 163 30 L 164 31 L 164 33 L 166 35 L 166 37 L 165 38 L 165 40 L 163 42 L 163 44 L 162 45 L 162 47 L 161 48 L 161 49 L 160 50 L 160 51 L 159 52 L 159 54 L 158 55 L 158 56 L 157 57 L 157 60 L 156 61 L 156 63 L 155 64 L 154 64 L 153 65 L 151 65 L 150 66 L 149 65 L 146 65 L 145 66 L 137 66 L 136 67 L 129 67 L 128 68 L 125 68 L 124 69 L 118 69 L 117 70 L 113 70 L 112 71 L 108 71 L 107 72 L 106 71 L 106 70 L 106 71 L 104 73 L 99 73 L 98 74 L 95 74 L 94 75 L 92 75 L 91 76 L 89 76 L 88 77 L 87 76 L 86 76 L 85 77 L 84 77 L 82 79 L 78 79 L 77 80 L 76 80 L 75 81 L 72 81 L 68 85 L 68 86 L 67 87 L 67 89 L 68 90 L 68 91 L 71 91 L 72 92 L 73 92 L 74 91 L 75 91 L 76 90 L 77 90 L 78 89 L 80 89 L 81 88 L 83 88 L 84 87 L 85 87 L 86 86 L 87 86 L 88 85 L 89 85 L 90 86 L 92 84 L 93 85 L 95 83 L 98 83 L 99 82 L 101 82 L 102 81 L 103 82 L 104 82 L 104 81 L 105 80 L 109 80 L 110 79 L 111 79 L 112 78 L 113 78 L 114 79 L 114 80 L 116 80 L 116 79 L 115 78 L 116 77 L 119 77 L 120 76 L 122 76 L 123 75 L 124 76 L 126 74 L 132 74 L 134 72 L 137 72 L 138 71 L 139 71 L 140 70 L 141 70 L 143 68 L 144 69 L 144 70 L 144 68 L 145 67 L 146 68 L 148 68 L 149 67 L 150 67 L 150 66 L 151 65 L 152 66 L 153 65 L 155 65 L 156 66 L 156 68 L 155 69 L 156 68 L 157 68 L 158 69 L 158 71 L 157 72 L 158 72 L 158 71 L 159 70 L 159 69 L 160 68 L 161 68 L 162 69 L 161 68 L 161 67 L 162 66 L 163 66 L 164 67 L 164 66 L 167 63 L 166 62 L 166 61 L 167 60 L 166 59 L 166 58 L 167 57 L 167 55 L 168 54 L 168 53 L 170 51 L 170 48 L 172 46 L 172 41 L 173 40 L 173 37 L 175 35 L 175 34 L 176 33 L 176 31 L 177 30 L 177 29 L 178 28 L 178 26 L 179 25 L 179 24 L 181 22 L 181 21 L 182 20 L 182 19 L 183 18 L 183 17 L 184 16 L 184 15 L 185 14 L 185 13 L 187 11 L 187 10 L 188 9 L 189 9 L 189 3 L 188 3 L 187 2 Z M 183 2 "/></svg></h2>
+      <p>Sube con fe, disciplina y perseverancia. Guiado y acompañado por Lotel.<br><b>Lo lograrás.</b></p>
+      <a class="btn" href="#inscripcion">Quiero arrancar hoy</a>
+    </div>
+  </section>
+
+</main>
+
+<div class="tricolor" aria-hidden="true"></div>
+<footer>
+  <div class="wrap">
+    <div class="fila">
+      <div>
+        <a class="marca" href="#inicio" aria-label="ARRANKA, inicio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116 158" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="#FCD92C" d="M 114 2 L 52 42 L 71 42 L 18 92 L 49 92 L 2 156 L 98 76 L 69 76 L 91 42 L 99 54 Z M 114 2 "/></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 369 124" aria-hidden="true" focusable="false"><path fill-rule="evenodd" fill="#FFFFFF" d="M 34 2 L 2 122 L 23 122 L 29 98 L 37 98 L 35 122 L 54 122 L 64 2 Z M 76 2 L 57 122 L 76 122 L 83 79 L 87 79 L 88 84 L 82 122 L 101 122 L 108 80 L 108 76 L 103 68 L 111 61 L 118 10 L 112 2 Z M 126 2 L 107 122 L 126 122 L 134 79 L 138 79 L 138 85 L 132 122 L 151 122 L 158 81 L 158 75 L 154 68 L 162 58 L 169 10 L 162 2 Z M 183 2 L 155 122 L 174 122 L 180 98 L 187 98 L 185 122 L 205 122 L 214 2 Z M 225 2 L 208 122 L 227 122 L 233 78 L 237 122 L 255 122 L 272 2 L 253 2 L 246 49 L 245 2 Z M 277 2 L 260 122 L 279 122 L 286 77 L 288 122 L 307 122 L 304 61 L 325 2 L 305 2 L 291 46 L 290 41 L 296 2 Z M 336 2 L 308 122 L 327 122 L 333 98 L 341 98 L 339 122 L 359 122 L 367 2 Z M 42 34 L 44 34 L 40 77 L 34 77 Z M 91 24 L 97 24 L 92 57 L 87 57 Z M 143 24 L 147 24 L 142 57 L 137 57 Z M 192 34 L 194 34 L 190 77 L 184 77 Z M 345 34 L 347 34 L 344 77 L 338 77 Z M 345 34 "/></svg></a>
+        <p>Alista, vende y gana. Menos gente, más ganancia.</p>
+        <p>Un proyecto de Lotel Wood Design SAS · Colombia</p>
+      </div>
+      <div>
+        <p class="tit cond">Contacto</p>
+        <p>WhatsApp: <a href="https://wa.me/573116351509" target="_blank" rel="noopener">311 635 1509</a></p>
+        <p>Correo: <a href="mailto:info@arranka.co">info@arranka.co</a></p>
+        <div class="redes">
+          <a href="https://www.instagram.com/arranka.co" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.facebook.com/search/top?q=Arranka%20Ya" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@arrankaya" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22 8.2a3 3 0 0 0-2.1-2.1C18 5.6 12 5.6 12 5.6s-6 0-7.9.5A3 3 0 0 0 2 8.2 31 31 0 0 0 1.6 12 31 31 0 0 0 2 15.8a3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .4-3.8 31 31 0 0 0-.4-3.8zM10 15V9l5.2 3L10 15z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="legal">© 2026 ARRANKA · Lotel Wood Design SAS · NIT 901883658-2. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a class="flota" href="https://wa.me/573116351509?text=Hola%20Lady%2C%20quiero%20saber%20m%C3%A1s%20del%20Reto%2021%20D%C3%ADas%20de%20ARRANKA" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3z"/></svg>
+</a>
+
+<script>
+  (function(){
+    var m=document.getElementById('menu-movil'),b=document.querySelector('.menu-btn');
+    function abrir(v){m.classList.toggle('abierto',v);b.setAttribute('aria-expanded',v);document.body.style.overflow=v?'hidden':'';}
+    b.addEventListener('click',function(){abrir(true)});
+    m.querySelector('.cerrar').addEventListener('click',function(){abrir(false)});
+    m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){abrir(false)})});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')abrir(false)});
+  })();
+</script>
+</body>
+</html>
